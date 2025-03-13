@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	height: 100vh;
+	display: grid;
+	font-size: 1.6rem;
+	place-items: center;
+	font-family:'Courier New', Courier, monospace "Courier New", Courier, Georgia, Times,"Times New Roman", serif;
+}
+
+#lista {
+	margin: 0;
+    gap: 1rem;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    place-items: center;
+    flex-direction: column;
+}
+#lista li {    
+    width: 35rem;
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    background: lime;
+    padding: 1.1rem 1.5rem 1.1rem 1.5rem;
+
+}
+#agregar {
+    width: 20rem;
+    text-align: center;
+    color: lime;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace "Courier New", Courier, Georgia, Times,"Times New Roman", serif;
+    border-radius: 3rem;
+    border-color: lime;
+    background: black;
+    padding: 1.1rem 1.5rem 1.1rem 1.5rem;
+}
